@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1273995500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initialization.TestSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Check the rates for Specific Date and Speicific Base value",
+        "description": "",
+        "id": "check-the-rates;check-the-rates-for-specific-date-and-speicific-base-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3154419100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I make a request with \"2010-01-12\" Date and Base \"USD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2010-01-12",
+                  "offset": 23
+                },
+                {
+                  "val": "USD",
+                  "offset": 50
+                }
+              ],
+              "location": "stepdefination.i_make_a_request_with_Date_and_Base(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79097700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#  And I got the response and validating with below parameters"
+              },
+              {
+                "line": 8,
+                "value": "#    | rates.USD |     1.4481 |"
+              },
+              {
+                "line": 9,
+                "value": "#    | date      | 2010-01-12 |"
+              }
+            ],
+            "line": 10,
+            "name": "I make a request with LatestDate and Base \"USD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefination.i_make_a_request_with_Date_and_Base(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@rate"
+          }
+        ]
+      }
+    ],
+    "name": "Check the rates",
+    "description": "",
+    "id": "check-the-rates",
+    "keyword": "Feature",
+    "uri": "Restapi.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Foriegn"
+      }
+    ]
+  }
+]
