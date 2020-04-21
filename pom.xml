@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestCucumber</groupId>
+  <artifactId>RestAssuredwithCucumber</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+<dependencies> 
+
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>5.6.0</version>
+	    <scope>test</scope>
+	</dependency>
+ 
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>5.6.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+	<dependency>
+	    <groupId>net.masterthought</groupId>
+	    <artifactId>cucumber-reporting</artifactId>
+	    <version>5.2.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm-deps -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-jvm-deps</artifactId>
+	    <version>1.0.6</version>
+	    <scope>provided</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java8 -->
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java8</artifactId>
+	    <version>5.6.0</version>
+	</dependency>
+
+	
+	
+	<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+	<dependency>
+	    <groupId>org.junit.jupiter</groupId>
+	    <artifactId>junit-jupiter-api</artifactId>
+	    <version>5.6.2</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+	<dependency>
+	    <groupId>io.rest-assured</groupId>
+	    <artifactId>rest-assured</artifactId>
+	    <version>4.3.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+	<dependency>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-compiler-plugin</artifactId>
+	    <version>3.8.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20190722</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+	<dependency>
+	    <groupId>com.googlecode.json-simple</groupId>
+	    <artifactId>json-simple</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	
+	
+	
+</dependencies>
+</project>
